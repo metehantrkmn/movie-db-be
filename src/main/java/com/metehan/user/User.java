@@ -1,4 +1,4 @@
-package com.metehan.authentication.user;
+package com.metehan.user;
 
 import com.metehan.authentication.confirmationToken.ConfirmationToken;
 import com.metehan.authentication.jwtToken.Token;

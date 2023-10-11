@@ -1,4 +1,4 @@
-package com.metehan.authentication.user;
+package com.metehan.user;
 
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

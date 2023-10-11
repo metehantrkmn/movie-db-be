@@ -1,6 +1,6 @@
 package com.metehan.authentication.confirmationToken;
 
-import com.metehan.authentication.user.User;
+import com.metehan.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

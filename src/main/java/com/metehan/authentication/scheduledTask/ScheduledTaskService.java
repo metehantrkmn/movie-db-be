@@ -4,8 +4,8 @@ import com.metehan.authentication.confirmationToken.ConfirmationToken;
 import com.metehan.authentication.confirmationToken.ConfirmationTokenRepository;
 import com.metehan.authentication.jwtToken.Token;
 import com.metehan.authentication.jwtToken.TokenRepository;
-import com.metehan.authentication.user.User;
-import com.metehan.authentication.user.UserRepository;
+import com.metehan.user.User;
+import com.metehan.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 

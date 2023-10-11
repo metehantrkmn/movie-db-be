@@ -1,7 +1,7 @@
 package com.metehan.config;
 
 
-import com.metehan.authentication.user.UserRepository;
+import com.metehan.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

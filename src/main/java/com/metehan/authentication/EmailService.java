@@ -5,8 +5,8 @@ import com.metehan.authentication.confirmationToken.ConfirmationTokenRepository;
 import com.metehan.authentication.exception.ExpiredConfirmationTokenException;
 import com.metehan.authentication.exception.NoSuchConfirmationToken;
 import com.metehan.authentication.exception.NoSuchUserExists;
-import com.metehan.authentication.user.User;
-import com.metehan.authentication.user.UserRepository;
+import com.metehan.user.User;
+import com.metehan.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.mail.MailSendException;
 import org.springframework.mail.SimpleMailMessage;
@@ -15,9 +15,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
-import java.nio.charset.Charset;
 import java.util.Date;
-import java.util.Random;
 
 @Service
 @RequiredArgsConstructor
