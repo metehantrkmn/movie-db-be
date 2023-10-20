@@ -15,10 +15,8 @@ import java.util.List;
 public class UserDocument {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private String id;
     private String email;
-    private List<Integer> favorites;
-    private String note;
+    private List<Movie> favorites;
 
 }
